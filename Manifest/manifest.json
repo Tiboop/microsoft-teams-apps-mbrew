@@ -1,8 +1,8 @@
 {
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.5",
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
   "version": "1.0.0",
-  "id": "d55d08d9-bacb-4567-942f-afd85d632dcc",
+  "id": "93ff2756-69c0-46e1-bb3f-4f0d7b9bfc2f",
   "packageName": "com.microsoft.teams.icebreaker",
   "developer": {
     "name": "<company name>",
@@ -10,71 +10,19 @@
     "privacyUrl": "<privacy url>",
     "termsOfUseUrl": "<terms of use url>"
   },
-  "localizationInfo": {
-    "defaultLanguageTag": "en",
-    "additionalLanguages": [
-      {
-        "languageTag": "en",
-        "file": "en.json"
-      },
-      {
-        "languageTag": "de",
-        "file": "de.json"
-      },
-      {
-        "languageTag": "fr",
-        "file": "fr.json"
-      },
-      {
-        "languageTag": "ar",
-        "file": "ar.json"
-      },
-      {
-        "languageTag": "ja",
-        "file": "ja.json"
-      },
-      {
-        "languageTag": "es",
-        "file": "es.json"
-      },
-      {
-        "languageTag": "he",
-        "file": "he.json"
-      },
-      {
-        "languageTag": "ko",
-        "file": "ko.json"
-      },
-      {
-        "languageTag": "pt-BR",
-        "file": "pt-BR.json"
-      },
-      {
-        "languageTag": "ru",
-        "file": "ru.json"
-      },
-      {
-        "languageTag": "zh-CN",
-        "file": "zh-CN.json"
-      },
-      {
-        "languageTag": "zh-TW",
-        "file": "zh-TW.json"
-      }
-    ]
-  },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Icebreaker"
+    "short": "Mbrew",
+    "full": ""
   },
   "description": {
     "short": "Icebreaker is a bot that randomly pairs team members up to build team unity.",
     "full": "Icebreaker is a cute little bot that randomly pairs team members up every week to help the team build trust and personal connections."
   },
-  "accentColor": "#64A2CC",
+  "accentColor": "#FFFFFF",
   "bots": [
     {
       "botId": "<bot id>",
